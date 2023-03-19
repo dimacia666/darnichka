@@ -1,13 +1,32 @@
 .logo {
     font-family: luminari;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
 }
 
 .nav-list {
     display: flex;
-    gap: 24px;
+    gap: 20px;
+}
+
+.address {
+    display: flex;
 }
 
 .address-list {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
