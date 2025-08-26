@@ -7,6 +7,7 @@ const btn5 = document.querySelector(".btn5");
  
 btn.addEventListener("click", () => { 
     btn.textContent = "Попалась)";
+    console.log("test");
 });
 btn1.addEventListener("click", () => { 
     btn1.textContent = "Люблю";
